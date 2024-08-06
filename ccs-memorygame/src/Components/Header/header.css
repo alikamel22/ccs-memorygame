@@ -1,0 +1,23 @@
+.containerheader{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 0px;
+    margin-top: 50px;
+}
+
+.headertitle{
+    font-size: 50px;
+    margin: 0px;
+    font-family: cursive;
+    color: rgb(251, 124, 145);
+}
+
+.imagemdireita{
+    width: 400px;
+}
+
+.imagemesquerda{
+    width: 400px;
+    transform: scaleX(-1);
+}

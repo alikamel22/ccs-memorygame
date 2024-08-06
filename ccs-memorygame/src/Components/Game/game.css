@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(227,237,247);
+}
+
+.cardscontainer{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: column; /* Stack rows vertically */
+    align-items: center;
+}
+
+.cardscontainer2{
+    display: flex;
+    flex-wrap: wrap; /* Wrap items to the next line */
+    justify-content: center; /* Center items horizontally */
+    width: 85%;
+    margin: auto;
+    position: absolute;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically, optional */
+    gap: 20px; /* Optional: add space between items */
+    padding: 10px; /* Optional: add padding around the container */
+    width: 100%; /* Ensure the container takes full width */
+    font-family: 'Georgia', serif;
+    font-size: 18px;
+}
+
+.dificuldadebloco {
+    display: flex;
+    align-items: center; /* Center the elements inside the block vertically */
+    gap: 5px; /* Optional: add space between the label and the select */
+}
+
+.dificuldadedrop {
+    margin-left: 5px; /* Optional: space between the label and dropdown */
+}
+
+.startgame{
+    font-size: 18px;
+    font-family: 'Georgia', serif;
+    background-color: rgb(137, 244, 167);
+    border-radius: 5px;
+    border: solid;
+}
+
+.reset{
+    font-size: 18px;
+    font-family: 'Georgia', serif;
+    border-radius: 5px;
+    border: solid;
+}
+
+.dificuldadedrop{
+    font-size: 18px;
+    font-family: 'Georgia', serif;
+    border-radius: 5px;
+    border: solid;
+}
