@@ -149,7 +149,7 @@ function Game() {
                         key={`f${item}`}
                         className= "cartafrente"
                         style= {{
-                            backgroundImage: `url('/assets/card_${item}.jpg')`, // Adjusted path to assume the public folder
+                            backgroundImage: `url('/ccs-memorygame/assets/card_${item}.jpg')`, // Adjusted path to assume the public folder
                             width: '150px',
                             height: '250px',
                             backgroundSize: '100% 100%', // Use 'cover' to ensure the image covers the button
@@ -170,7 +170,7 @@ function Game() {
                         className= "cartatraseira"
                         onClick= {() => handleClickCarta(index, item)}
                         style= {{
-                            backgroundImage: `url('/assets/carta_traseira.jpg')`, // Adjusted path to assume the public folder
+                            backgroundImage: `url('/ccs-memorygame/assets/carta_traseira.jpg')`, // Adjusted path to assume the public folder
                             opacity: clickCarta[index] ? 0 : 1,
                             width: '150px',
                             height: '250px',
